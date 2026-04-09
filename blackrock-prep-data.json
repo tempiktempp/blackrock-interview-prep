@@ -1,0 +1,890 @@
+{
+  "metadata": {
+    "role": "SDE 2 - Fullstack Java Developer",
+    "company": "BlackRock",
+    "location": "Mumbai",
+    "experience": "4 years",
+    "currentCompany": "Barclays",
+    "lastUpdated": "2026-04-09"
+  },
+  "compensation": {
+    "title": "Expected Compensation (4 YOE - Associate Level)",
+    "baseSalary": {
+      "min": 24,
+      "max": 32,
+      "unit": "LPA"
+    },
+    "variable": {
+      "min": 3,
+      "max": 4.5,
+      "unit": "LPA",
+      "percentage": "10-12% of base"
+    },
+    "benefits": {
+      "min": 2.5,
+      "max": 3,
+      "unit": "LPA",
+      "description": "Health & Wellbeing"
+    },
+    "totalCTC": {
+      "min": 29,
+      "max": 39,
+      "unit": "LPA"
+    },
+    "dataPoints": [
+      {
+        "level": "Associate",
+        "experience": "3 YOE",
+        "base": 29,
+        "bonus": 3.5,
+        "total": 35
+      },
+      {
+        "level": "Associate",
+        "experience": "4-5 YOE",
+        "base": "28-32",
+        "variable": "included",
+        "total": "31-39"
+      },
+      {
+        "level": "Data Engineer",
+        "experience": "5 YOE",
+        "base": 28,
+        "variable": 3.4,
+        "benefits": 2.6,
+        "total": 34
+      }
+    ],
+    "structure": {
+      "fixed": "80-85% of CTC",
+      "performanceBonus": "10-12% annually",
+      "pfContribution": "Standard",
+      "insurance": "Comprehensive health coverage",
+      "learningBudget": "Coursera, Pluralsight access"
+    }
+  },
+  "interviewProcess": {
+    "overview": {
+      "totalDuration": "3-4 weeks",
+      "difficultyRating": "3.08/5",
+      "successRate": "63.8%"
+    },
+    "rounds": [
+      {
+        "id": 1,
+        "name": "Recruiter Screening",
+        "duration": "30 mins",
+        "week": "Week 1",
+        "description": "Initial discussion about role, background, and expectations"
+      },
+      {
+        "id": 2,
+        "name": "Online Assessment",
+        "duration": "90 mins",
+        "week": "Week 1-2",
+        "description": "Coding, SQL, and Aptitude sections"
+      },
+      {
+        "id": 3,
+        "name": "Technical Round 1 - DSA",
+        "duration": "45-60 mins",
+        "week": "Week 2-3",
+        "description": "Data structures and algorithms coding"
+      },
+      {
+        "id": 4,
+        "name": "Technical Round 2 - Core Java/Spring",
+        "duration": "45-60 mins",
+        "week": "Week 3",
+        "description": "Deep dive into Java and Spring Boot"
+      },
+      {
+        "id": 5,
+        "name": "Technical Round 3 - System Design",
+        "duration": "45-60 mins",
+        "week": "Week 3-4",
+        "description": "System design and managerial discussion"
+      },
+      {
+        "id": 6,
+        "name": "HR/Behavioral",
+        "duration": "30 mins",
+        "week": "Week 4",
+        "description": "Cultural fit and behavioral questions"
+      }
+    ]
+  },
+  "questions": {
+    "onlineAssessment": {
+      "coding": {
+        "duration": "40 mins",
+        "count": 2,
+        "questions": [
+          {
+            "title": "JSON Validation & Parsing",
+            "difficulty": "Medium",
+            "description": "Validate nested JSON with mismatched brackets, extract specific fields",
+            "topics": ["JSON", "String Parsing", "Validation"],
+            "example": "Stock price JSON with company_name, ticker, stack_price"
+          },
+          {
+            "title": "Graph/Currency Exchange",
+            "difficulty": "Medium-Hard",
+            "description": "Find maximum exchange rate path in currency graph",
+            "topics": ["Graph", "DFS", "Path Finding"],
+            "leetcodeRef": "Evaluate Division (#399)"
+          },
+          {
+            "title": "String Manipulation",
+            "difficulty": "Easy-Medium",
+            "description": "First non-repeating character, valid parentheses variations",
+            "topics": ["String", "HashMap", "Array"],
+            "leetcodeRef": "First Unique Character"
+          },
+          {
+            "title": "Array/HashMap Problems",
+            "difficulty": "Easy-Medium",
+            "description": "Target sum, remove duplicates using streams",
+            "topics": ["Array", "HashMap", "Streams"],
+            "leetcodeRef": "Two Sum, Remove Duplicates"
+          }
+        ]
+      },
+      "sql": {
+        "duration": "20 mins",
+        "count": "15-20 MCQs",
+        "topics": [
+          "JOIN operations (INNER, LEFT, RIGHT, FULL OUTER)",
+          "Aggregate functions (GROUP BY, HAVING)",
+          "Subqueries and CTEs",
+          "Window functions (ROW_NUMBER, RANK, DENSE_RANK)",
+          "Index optimization",
+          "ACID properties"
+        ],
+        "actualQuestions": [
+          "Write query to find employees with same salary",
+          "Find 4th highest salary using SQL"
+        ]
+      },
+      "aptitude": {
+        "duration": "30 mins",
+        "sections": 5,
+        "topics": [
+          "Logical Reasoning - Pattern recognition, blood relations",
+          "Attention to Detail - Flowchart completion (5-8 decision blocks)",
+          "Numerical Ability - Percentages, ratios, data interpretation",
+          "Verbal Reasoning - Reading comprehension",
+          "Puzzles - Time/distance problems"
+        ],
+        "actualPuzzles": [
+          "Given two hourglasses of 4 and 7 minutes, measure 9 minutes"
+        ]
+      }
+    },
+    "dsaTechnical": {
+      "duration": "45-60 mins",
+      "mustDo": [
+        {
+          "title": "Linked List Cycle",
+          "leetcode": "141",
+          "difficulty": "Easy",
+          "priority": 5,
+          "topics": ["Linked List", "Two Pointer", "Floyd's Algorithm"],
+          "approach": "Detect cycle using slow and fast pointers"
+        },
+        {
+          "title": "Daily Temperatures",
+          "leetcode": "739",
+          "difficulty": "Medium",
+          "priority": 5,
+          "topics": ["Stack", "Monotonic Stack", "Array"],
+          "approach": "Use monotonic decreasing stack"
+        },
+        {
+          "title": "First Non-Repeating Character",
+          "leetcode": "387",
+          "difficulty": "Easy",
+          "priority": 5,
+          "topics": ["String", "HashMap", "Array"],
+          "approach": "O(n²) brute force then O(n) with HashMap"
+        },
+        {
+          "title": "Valid Parentheses",
+          "leetcode": "20",
+          "difficulty": "Easy",
+          "priority": 4,
+          "topics": ["Stack", "String"],
+          "approach": "Use stack to match opening and closing brackets"
+        },
+        {
+          "title": "Two Sum",
+          "leetcode": "1",
+          "difficulty": "Easy",
+          "priority": 4,
+          "topics": ["Array", "HashMap"],
+          "approach": "Single pass with HashMap"
+        },
+        {
+          "title": "Best Time to Buy and Sell Stock",
+          "leetcode": "121",
+          "difficulty": "Easy",
+          "priority": 4,
+          "topics": ["Array", "Greedy"],
+          "approach": "Track minimum and maximum profit"
+        },
+        {
+          "title": "Valid Anagram",
+          "leetcode": "242",
+          "difficulty": "Easy",
+          "priority": 3,
+          "topics": ["String", "HashMap", "Sorting"],
+          "approach": "Frequency count or sorting"
+        },
+        {
+          "title": "Similar String Groups",
+          "leetcode": "839",
+          "difficulty": "Hard",
+          "priority": 4,
+          "topics": ["Graph", "Union Find", "DFS"],
+          "approach": "Union-find or DFS grouping"
+        },
+        {
+          "title": "Evaluate Division",
+          "leetcode": "399",
+          "difficulty": "Medium",
+          "priority": 5,
+          "topics": ["Graph", "DFS", "BFS"],
+          "approach": "Build graph and DFS/BFS for path finding"
+        }
+      ],
+      "dataStructureFocus": [
+        "LinkedList (cycle detection, reversal)",
+        "Stacks (monotonic stack, valid parentheses)",
+        "HashMap/HashSet (frequency counting, two-sum variants)",
+        "Arrays (sliding window, two-pointer)",
+        "Strings (substring problems)"
+      ]
+    },
+    "javaSpring": {
+      "duration": "45-60 mins",
+      "projectDiscussion": "10-15 mins on current work",
+      "categories": {
+        "multithreading": {
+          "priority": 5,
+          "questions": [
+            "Difference between wait(), notify(), and notifyAll()",
+            "What is synchronized keyword? Write code with follow-ups",
+            "Difference between ConcurrentHashMap and HashMap",
+            "Fail-fast vs Fail-safe iterators",
+            "Thread lifecycle and states",
+            "Executor framework and thread pools",
+            "Volatile keyword vs synchronized",
+            "Deadlock scenarios and prevention",
+            "CompletableFuture usage"
+          ]
+        },
+        "collections": {
+          "priority": 5,
+          "questions": [
+            "Internal working of HashMap",
+            "Contract between hashCode() and equals()",
+            "How to make a class immutable? Handle List member in immutable class",
+            "ArrayList vs LinkedList internal implementation",
+            "TreeMap vs HashMap",
+            "When to use which collection?"
+          ]
+        },
+        "oopDesignPatterns": {
+          "priority": 4,
+          "questions": [
+            "Singleton pattern - write code with thread safety",
+            "Polymorphism examples",
+            "Abstract class vs Interface (Java 8+)",
+            "Explain a design pattern of your choice (whiteboard)",
+            "Composition vs Inheritance",
+            "SOLID principles"
+          ]
+        },
+        "java8Features": {
+          "priority": 4,
+          "questions": [
+            "Remove duplicates from nested array using streams (flatMap)",
+            "Lambda expressions and functional interfaces",
+            "Optional class usage",
+            "Stream API operations (map, filter, reduce, collect)",
+            "Default and static methods in interfaces",
+            "Method references"
+          ]
+        },
+        "springBootCore": {
+          "priority": 5,
+          "questions": [
+            "Explain Inversion of Control (IoC) and Dependency Injection",
+            "Difference between @Component, @Service, @Repository, @Controller",
+            "Difference between @Bean and @Component",
+            "@RestController vs @Controller",
+            "What is @SpringBootApplication annotation doing internally?",
+            "Bean lifecycle and scopes",
+            "@Autowired vs @Inject vs Constructor injection"
+          ]
+        },
+        "restApi": {
+          "priority": 5,
+          "questions": [
+            "Write a GET API endpoint with proper annotations",
+            "@RequestMapping vs @GetMapping/@PostMapping",
+            "@RequestBody vs @RequestParam vs @PathVariable",
+            "Exception handling (@ControllerAdvice, @ExceptionHandler)",
+            "HTTP status codes (200, 201, 400, 401, 403, 404, 500)",
+            "REST API best practices"
+          ]
+        },
+        "dataAccess": {
+          "priority": 4,
+          "questions": [
+            "SQL query to find 4th largest salary",
+            "JPA vs Hibernate vs JDBC",
+            "@Entity, @Table, @Column annotations",
+            "@OneToMany, @ManyToOne relationships",
+            "Transaction management (@Transactional)",
+            "Why @Transactional doesn't work sometimes?"
+          ]
+        },
+        "microservices": {
+          "priority": 3,
+          "questions": [
+            "Microservices architecture principles",
+            "Service discovery (Eureka)",
+            "API Gateway",
+            "Circuit breaker pattern (Resilience4j)",
+            "Kafka basics - producer, consumer, topics"
+          ]
+        }
+      }
+    },
+    "systemDesign": {
+      "duration": "30-40 mins",
+      "actualQuestions": [
+        {
+          "title": "Banking Application System Design",
+          "priority": 5,
+          "variants": [
+            "Trading platform",
+            "Portfolio management system",
+            "Account management system"
+          ],
+          "focus": "Transaction consistency, ACID compliance"
+        },
+        {
+          "title": "Cache System Design",
+          "priority": 4,
+          "topics": [
+            "LRU vs LFU cache implementation",
+            "Cache eviction policies",
+            "Distributed caching (Redis)"
+          ]
+        },
+        {
+          "title": "URL Shortener",
+          "priority": 3,
+          "topics": [
+            "Short URL generation",
+            "Database design",
+            "Scalability considerations"
+          ]
+        },
+        {
+          "title": "Rate Limiter",
+          "priority": 3,
+          "topics": [
+            "Token bucket algorithm",
+            "Sliding window",
+            "Distributed rate limiting"
+          ]
+        }
+      ],
+      "keyTopics": [
+        "Scalability & Performance (Load balancing, Horizontal vs vertical scaling, Caching)",
+        "Microservices Architecture (Service decomposition, API Gateway, Event-driven)",
+        "Data Management (SQL vs NoSQL, CAP theorem, Database indexing)",
+        "Reliability (Circuit breaker, Retry mechanisms, Health checks)",
+        "Security (OAuth 2.0, JWT, API security)"
+      ]
+    },
+    "behavioral": {
+      "duration": "30 mins",
+      "mustPrepare": [
+        {
+          "question": "Tell me about yourself",
+          "priority": 5,
+          "format": "2-min professional summary",
+          "focus": "4 years at Barclays → Java backend → Why BlackRock"
+        },
+        {
+          "question": "Why BlackRock?",
+          "priority": 5,
+          "keyPoints": [
+            "Aladdin platform expertise",
+            "Fintech expertise from Barclays",
+            "Career growth in asset management"
+          ]
+        },
+        {
+          "question": "Why are you leaving Barclays?",
+          "priority": 4,
+          "approach": "Positive framing, growth opportunities"
+        },
+        {
+          "question": "Tell me about a time when... (STAR Format)",
+          "priority": 5,
+          "scenarios": [
+            "Handled conflict with team member",
+            "Dealt with tight deadline",
+            "Made a mistake and recovered",
+            "Led a critical project",
+            "Disagreed with manager",
+            "Learned new technology quickly"
+          ]
+        },
+        {
+          "question": "What's your biggest weakness?",
+          "priority": 3,
+          "approach": "Real weakness + how you're improving"
+        },
+        {
+          "question": "Where do you see yourself in 5 years?",
+          "priority": 3,
+          "focus": "Technical leadership path, BlackRock career progression"
+        },
+        {
+          "question": "Questions for us?",
+          "priority": 5,
+          "suggestions": [
+            "Aladdin technology stack details",
+            "Team structure and growth path",
+            "Learning opportunities",
+            "Current projects team is working on"
+          ]
+        }
+      ],
+      "blackrockValues": [
+        "Fiduciary to clients",
+        "Passion for performance",
+        "Power of diversity",
+        "Innovation and collaboration"
+      ]
+    }
+  },
+  "studyPlan": {
+    "week1": {
+      "title": "FUNDAMENTALS & DSA",
+      "days": [
+        {
+          "day": 1,
+          "title": "Core Java - Multithreading & Collections",
+          "morning": [
+            "Multithreading: wait/notify, synchronized, volatile",
+            "Collections: HashMap internals, ConcurrentHashMap",
+            "Practice: Write thread-safe Singleton (5 approaches)"
+          ],
+          "afternoon": [
+            "Java 8 Streams: flatMap, reduce, collectors",
+            "Optional, CompletableFuture",
+            "Practice: Stream API coding challenges (10 problems)"
+          ],
+          "evening": [
+            "Immutability patterns",
+            "equals() and hashCode() contract",
+            "Practice: Design immutable class with collections"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Core Java Deep Dive Continued",
+          "tasks": [
+            "Review all Day 1 topics",
+            "Practice multithreading scenarios",
+            "Mock coding exercises"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Spring Boot - Core Concepts",
+          "morning": [
+            "IoC/DI deep dive",
+            "Bean lifecycle and scopes",
+            "Annotations: @Component vs @Bean, @RestController"
+          ],
+          "afternoon": [
+            "REST API development patterns",
+            "Exception handling best practices",
+            "Practice: Build complete CRUD API"
+          ],
+          "evening": [
+            "Spring Data JPA",
+            "@Transactional behavior",
+            "Connection pooling, caching"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Spring Boot Mastery",
+          "tasks": [
+            "Review all Spring concepts",
+            "Build sample microservice",
+            "Practice API design"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "DSA - Arrays & Strings",
+          "problems": [
+            "Two Sum (LC #1)",
+            "Valid Parentheses (LC #20)",
+            "Valid Anagram (LC #242)",
+            "First Non-Repeating Character",
+            "Best Time to Buy/Sell Stock (LC #121)"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "DSA - LinkedList & Stack",
+          "problems": [
+            "Linked List Cycle (LC #141)",
+            "Merge Two Sorted Lists (LC #21)",
+            "Daily Temperatures (LC #739)",
+            "Remove Duplicates from Array (LC #26)",
+            "Maximum Subarray (LC #53)"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "DSA - Graphs & Advanced",
+          "problems": [
+            "Evaluate Division (LC #399)",
+            "Similar String Groups (LC #839)",
+            "Climbing Stairs (LC #70)",
+            "Next Greater Element (LC #556)",
+            "Review all week's problems"
+          ]
+        }
+      ]
+    },
+    "week2": {
+      "title": "ADVANCED CONCEPTS & SYSTEM DESIGN",
+      "days": [
+        {
+          "day": 8,
+          "title": "Advanced Java - Design Patterns",
+          "morning": [
+            "Design Patterns: Singleton, Factory, Builder, Observer",
+            "Write code for each pattern",
+            "SOLID principles with examples"
+          ],
+          "afternoon": [
+            "Microservices patterns",
+            "Kafka fundamentals",
+            "Circuit breaker, API Gateway"
+          ],
+          "evening": [
+            "Practice: Design questions from Barclays projects",
+            "Prepare HLD/LLD diagrams"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Advanced Java Continued",
+          "tasks": [
+            "Review design patterns",
+            "Practice coding patterns",
+            "Prepare project explanations"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "System Design - Fundamentals",
+          "topics": [
+            "Scalability concepts (horizontal/vertical)",
+            "Load balancing, caching strategies",
+            "CAP theorem, database choices",
+            "Network protocols, CDN"
+          ]
+        },
+        {
+          "day": 11,
+          "title": "System Design - Practice",
+          "designs": [
+            "Banking transaction system",
+            "Cache with LRU eviction",
+            "URL shortener",
+            "Design a notification system"
+          ]
+        },
+        {
+          "day": 12,
+          "title": "System Design - Domain Specific",
+          "designs": [
+            "Trading platform (BlackRock relevant)",
+            "Portfolio management system",
+            "Rate limiter",
+            "Payment gateway"
+          ]
+        },
+        {
+          "day": 13,
+          "title": "SQL & Database - Part 1",
+          "morning": [
+            "JOINs practice (20 queries)",
+            "Window functions: ROW_NUMBER, RANK, DENSE_RANK",
+            "Aggregate functions with GROUP BY, HAVING"
+          ],
+          "afternoon": [
+            "Subqueries and CTEs",
+            "Find Nth highest salary (5 approaches)",
+            "Employees with same salary queries"
+          ],
+          "evening": [
+            "Index optimization",
+            "Query performance tuning",
+            "Execution plans"
+          ]
+        },
+        {
+          "day": 14,
+          "title": "SQL & Database - Part 2",
+          "topics": [
+            "Database design: Normalization (1NF, 2NF, 3NF)",
+            "ACID properties",
+            "Transaction isolation levels",
+            "Indexing strategies"
+          ]
+        }
+      ]
+    },
+    "week3": {
+      "title": "MOCK INTERVIEWS & FINAL PREP",
+      "days": [
+        {
+          "day": 15,
+          "title": "Project Preparation",
+          "tasks": [
+            "Document Barclays projects with architecture diagrams",
+            "List tech stack decisions and rationale",
+            "Document challenges faced and solutions",
+            "Quantify metrics and impact",
+            "Prepare 8-10 STAR stories",
+            "Practice explaining complex concepts simply"
+          ]
+        },
+        {
+          "day": 16,
+          "title": "BlackRock Research & Behavioral Prep",
+          "tasks": [
+            "Research BlackRock Aladdin platform",
+            "Study BlackRock values and culture",
+            "Prepare 'Why BlackRock?' answer",
+            "Prepare questions for interviewers",
+            "Review company news and tech initiatives"
+          ]
+        },
+        {
+          "day": 17,
+          "title": "Mock Interview - DSA & Java",
+          "morning": [
+            "DSA mock interview (45 mins)",
+            "Use Pramp or interviewing.io",
+            "Focus on communication"
+          ],
+          "afternoon": [
+            "Java/Spring mock (60 mins)",
+            "Review and document gaps"
+          ],
+          "evening": [
+            "Practice problem areas",
+            "Refine answers"
+          ]
+        },
+        {
+          "day": 18,
+          "title": "Mock Interview - System Design & Behavioral",
+          "morning": [
+            "System design mock (60 mins)",
+            "Practice whiteboarding",
+            "Focus on trade-offs discussion"
+          ],
+          "afternoon": [
+            "Full behavioral mock",
+            "STAR format practice",
+            "Record and review answers"
+          ],
+          "evening": [
+            "Prepare final question list",
+            "Review company research"
+          ]
+        },
+        {
+          "day": 19,
+          "title": "Final Review - Technical",
+          "tasks": [
+            "Review all flagged LeetCode problems",
+            "Quick revision: Java multithreading",
+            "Quick revision: Spring Boot annotations",
+            "Live coding practice with timer",
+            "System design quick review"
+          ]
+        },
+        {
+          "day": 20,
+          "title": "Final Review - Behavioral & Logistics",
+          "tasks": [
+            "Review behavioral answers (STAR format)",
+            "Practice 'Tell me about yourself' (2 mins)",
+            "Latest BlackRock news review",
+            "Test video/audio setup",
+            "Prepare outfit",
+            "Early sleep preparation"
+          ]
+        },
+        {
+          "day": 21,
+          "title": "Interview Day",
+          "preInterview": [
+            "30 mins: Revise key notes",
+            "15 mins: Breathing exercises",
+            "Test internet, system, audio/video"
+          ],
+          "postInterview": [
+            "Send thank-you email within 24 hours",
+            "Document questions asked"
+          ]
+        }
+      ]
+    }
+  },
+  "resources": {
+    "dsa": [
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com",
+        "focus": "75 Blind questions + BlackRock tagged"
+      },
+      {
+        "name": "NeetCode.io",
+        "url": "https://neetcode.io",
+        "focus": "Structured roadmap"
+      }
+    ],
+    "java": [
+      {
+        "name": "Java Concurrency in Practice",
+        "type": "Book",
+        "focus": "Multithreading deep dive"
+      },
+      {
+        "name": "Baeldung",
+        "url": "https://www.baeldung.com",
+        "focus": "Spring tutorials"
+      },
+      {
+        "name": "Spring Boot Docs",
+        "url": "https://docs.spring.io/spring-boot",
+        "focus": "Official documentation"
+      }
+    ],
+    "systemDesign": [
+      {
+        "name": "Grokking the System Design Interview",
+        "url": "https://www.educative.io",
+        "focus": "Comprehensive course"
+      },
+      {
+        "name": "ByteByteGo",
+        "url": "https://www.youtube.com/@ByteByteGo",
+        "focus": "YouTube tutorials"
+      },
+      {
+        "name": "System Design Primer",
+        "url": "https://github.com/donnemartin/system-design-primer",
+        "focus": "GitHub resource"
+      }
+    ]
+  },
+  "jobSearch": {
+    "primarySites": [
+      {
+        "name": "BlackRock Careers Portal",
+        "url": "https://careers.blackrock.com",
+        "priority": 1
+      },
+      {
+        "name": "LinkedIn Jobs",
+        "url": "https://linkedin.com/jobs",
+        "priority": 1
+      },
+      {
+        "name": "Naukri.com",
+        "url": "https://naukri.com",
+        "priority": 2
+      },
+      {
+        "name": "Indeed India",
+        "url": "https://indeed.co.in",
+        "priority": 2
+      },
+      {
+        "name": "Glassdoor",
+        "url": "https://glassdoor.co.in",
+        "priority": 3
+      }
+    ],
+    "searchTerms": [
+      "BlackRock SDE 2 Mumbai",
+      "BlackRock Software Engineer Mumbai",
+      "BlackRock Java Developer Mumbai",
+      "BlackRock Fullstack Developer Mumbai",
+      "Software Development Engineer BlackRock India",
+      "Java Backend Engineer BlackRock",
+      "SDE II BlackRock Powai"
+    ]
+  },
+  "successStrategies": {
+    "dsaRound": [
+      "Think aloud - Explain your approach before coding",
+      "Start with brute force - Then optimize",
+      "Ask clarifying questions - Input size, constraints, edge cases",
+      "Test your code - Walk through with example",
+      "Complexity analysis - Always mention time/space"
+    ],
+    "javaSpringRound": [
+      "Project depth > breadth - Know your Barclays projects intimately",
+      "Code examples - Be ready to write code on whiteboard",
+      "Trade-offs - Explain why you chose X over Y",
+      "Banking domain - Leverage your fintech knowledge",
+      "Multithreading - This is heavily tested"
+    ],
+    "systemDesignRound": [
+      "Requirements gathering - Ask functional/non-functional requirements",
+      "Start high-level - Then drill down",
+      "Numbers matter - Estimate QPS, storage, bandwidth",
+      "Trade-offs - SQL vs NoSQL, sync vs async",
+      "Financial domain - Emphasize ACID, consistency, security"
+    ],
+    "behavioralRound": [
+      "STAR format - Situation, Task, Action, Result",
+      "Barclays projects - Have 5-6 stories ready",
+      "Metrics - Quantify impact (reduced latency by 40%)",
+      "Growth mindset - Show learning from failures",
+      "BlackRock alignment - Connect to company values"
+    ]
+  },
+  "commonMistakes": [
+    "Jumping to code without discussing approach",
+    "Not testing code with edge cases",
+    "Saying 'I don't know' without attempting",
+    "Badmouthing Barclays or current team",
+    "Over-engineering simple problems",
+    "Not asking questions to interviewer",
+    "Neglecting behavioral prep",
+    "Not researching BlackRock values"
+  ]
+}
