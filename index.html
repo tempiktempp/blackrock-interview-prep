@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackRock Interview Prep Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <h1>🎯 BlackRock</h1>
+                <p>Interview Prep</p>
+            </div>
+            
+            <nav class="nav-menu">
+                <button class="nav-item active" data-section="overview">
+                    <span class="icon">📊</span>
+                    <span>Overview</span>
+                </button>
+                <button class="nav-item" data-section="compensation">
+                    <span class="icon">💰</span>
+                    <span>Compensation</span>
+                </button>
+                <button class="nav-item" data-section="interview-process">
+                    <span class="icon">🔄</span>
+                    <span>Interview Process</span>
+                </button>
+                <button class="nav-item" data-section="questions">
+                    <span class="icon">❓</span>
+                    <span>Questions Bank</span>
+                </button>
+                <button class="nav-item" data-section="study-plan">
+                    <span class="icon">📅</span>
+                    <span>Study Plan</span>
+                </button>
+                <button class="nav-item" data-section="resources">
+                    <span class="icon">📚</span>
+                    <span>Resources</span>
+                </button>
+                <button class="nav-item" data-section="job-search">
+                    <span class="icon">🔍</span>
+                    <span>Job Search</span>
+                </button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="progress-widget">
+                    <p class="label">Prep Progress</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="overall-progress"></div>
+                    </div>
+                    <p class="progress-text" id="progress-text">0% Complete</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search questions, topics, or resources...">
+                    <span class="search-icon">🔍</span>
+                </div>
+                <div class="user-info">
+                    <span class="role-badge">SDE 2 Candidate</span>
+                    <span class="location">📍 Mumbai</span>
+                </div>
+            </header>
+
+            <!-- Dynamic Content Sections -->
+            <div class="content-wrapper" id="content-wrapper">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
