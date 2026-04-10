@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Prep Dashboard</title>
+    <link rel="stylesheet" href="styles-v2.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Header with Mode Toggle -->
+        <header class="app-header">
+            <div class="header-left">
+                <h1 class="app-title">📚 Interview Prep Hub</h1>
+            </div>
+            <div class="header-center">
+                <div class="mode-toggle">
+                    <button class="mode-btn active" data-mode="interview">
+                        <span class="icon">💼</span>
+                        Interview Prep
+                    </button>
+                    <button class="mode-btn" data-mode="job-search">
+                        <span class="icon">🔍</span>
+                        Job Search
+                    </button>
+                </div>
+            </div>
+            <div class="header-right">
+                <select id="company-selector" class="company-dropdown">
+                    <option value="">Select Company...</option>
+                </select>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <div class="main-layout">
+            <!-- Interview Prep Mode -->
+            <div id="interview-mode" class="mode-content active">
+                <!-- Left Sidebar - User Experiences List -->
+                <aside class="experiences-sidebar">
+                    <div class="sidebar-header">
+                        <h2>Interview Experiences</h2>
+                        <div class="filter-controls">
+                            <select id="location-filter" class="filter-select">
+                                <option value="">All Locations</option>
+                            </select>
+                            <select id="result-filter" class="filter-select">
+                                <option value="">All Results</option>
+                                <option value="Selected">Selected</option>
+                                <option value="Rejected">Rejected</option>
+                                <option value="In Process">In Process</option>
+                            </select>
+                        </div>
+                        <div class="stats-summary">
+                            <div class="stat-item">
+                                <span class="stat-value" id="total-exp">0</span>
+                                <span class="stat-label">Experiences</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value" id="selected-count">0</span>
+                                <span class="stat-label">Selected</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="experiences-list" id="experiences-list">
+                        <!-- Experience cards will be loaded dynamically -->
+                    </div>
+                </aside>
+
+                <!-- Right Content - Experience Details -->
+                <main class="experience-content">
+                    <div id="no-company-selected" class="empty-state">
+                        <div class="empty-icon">🎯</div>
+                        <h2>Select a Company</h2>
+                        <p>Choose a company from the dropdown above to view interview experiences</p>
+                    </div>
+
+                    <div id="no-experience-selected" class="empty-state" style="display: none;">
+                        <div class="empty-icon">👈</div>
+                        <h2>Select an Experience</h2>
+                        <p>Click on an interview experience from the left sidebar to view details</p>
+                    </div>
+
+                    <div id="experience-details" style="display: none;">
+                        <!-- Experience header -->
+                        <div class="experience-header">
+                            <div class="header-row-1">
+                                <h1 class="exp-title" id="exp-title">Experience Title</h1>
+                                <span class="result-badge" id="exp-result-badge">Selected</span>
+                            </div>
+                            <div class="header-row-2">
+                                <div class="exp-meta">
+                                    <span class="meta-item"><strong>Position:</strong> <span id="exp-position"></span></span>
+                                    <span class="meta-item"><strong>Location:</strong> <span id="exp-location"></span></span>
+                                    <span class="meta-item"><strong>Experience:</strong> <span id="exp-experience"></span></span>
+                                    <span class="meta-item"><strong>Date:</strong> <span id="exp-date"></span></span>
+                                </div>
+                                <a href="#" id="exp-source-link" class="source-link" target="_blank">
+                                    View Original on <span id="exp-source"></span> →
+                                </a>
+                            </div>
+                            <div class="compensation-bar" id="compensation-bar" style="display: none;">
+                                <div class="comp-item">
+                                    <span class="comp-label">Base</span>
+                                    <span class="comp-value" id="comp-base">-</span>
+                                </div>
+                                <div class="comp-item">
+                                    <span class="comp-label">Bonus</span>
+                                    <span class="comp-value" id="comp-bonus">-</span>
+                                </div>
+                                <div class="comp-item highlight">
+                                    <span class="comp-label">Total</span>
+                                    <span class="comp-value" id="comp-total">-</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Rounds Tabs -->
+                        <div class="rounds-tabs" id="rounds-tabs">
+                            <!-- Round tabs will be loaded dynamically -->
+                        </div>
+
+                        <!-- Rounds Content -->
+                        <div class="rounds-content" id="rounds-content">
+                            <!-- Round content will be loaded dynamically -->
+                        </div>
+
+                        <!-- Tips Section -->
+                        <div class="tips-section" id="tips-section" style="display: none;">
+                            <h3>💡 Key Takeaways</h3>
+                            <ul class="tips-list" id="tips-list">
+                                <!-- Tips will be loaded dynamically -->
+                            </ul>
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+            <!-- Job Search Mode -->
+            <div id="job-search-mode" class="mode-content">
+                <div class="job-search-container">
+                    <div class="empty-state">
+                        <div class="empty-icon">🚀</div>
+                        <h2>Job Search Dashboard</h2>
+                        <p>Job search features coming soon! This section will include:</p>
+                        <ul class="feature-list">
+                            <li>✅ Job posting aggregation</li>
+                            <li>✅ Application tracking</li>
+                            <li>✅ Referral management</li>
+                            <li>✅ Resume optimizer</li>
+                            <li>✅ Interview scheduling</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app-v2.js"></script>
+</body>
+</html>

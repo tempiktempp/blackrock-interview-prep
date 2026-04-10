@@ -1,0 +1,797 @@
+{
+  "company": "BlackRock",
+  "lastUpdated": "2026-04-09",
+  "experiences": [
+    {
+      "id": "exp_001",
+      "candidate": "Anonymous_1",
+      "source": "LeetCode Discuss",
+      "sourceUrl": "https://leetcode.com/discuss/post/7065947/blackrock-associate-mumbai-selected-by-a-zv7d/",
+      "date": "2025-08",
+      "location": "Mumbai",
+      "position": "Associate",
+      "level": "SDE-2",
+      "experience": "3 years",
+      "previousCompany": "SBC",
+      "result": "Selected",
+      "compensation": {
+        "base": 29,
+        "bonus": 3.5,
+        "total": 35,
+        "currency": "LPA"
+      },
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "roundName": "DSA Technical (Virtual)",
+          "duration": "45-60 mins",
+          "interviewers": 1,
+          "questions": [
+            {
+              "type": "coding",
+              "question": "HashMap/HashSet based problem (Easy/Medium)",
+              "difficulty": "Medium",
+              "topics": ["HashMap", "HashSet"]
+            },
+            {
+              "type": "coding",
+              "question": "Java Multithreading problem (Easy)",
+              "difficulty": "Easy",
+              "topics": ["Multithreading", "Java"]
+            }
+          ],
+          "discussion": "Round focused on coding fundamentals and project discussion"
+        },
+        {
+          "roundNumber": 2,
+          "roundName": "Core Java (Virtual)",
+          "duration": "45-60 mins",
+          "interviewers": 1,
+          "questions": [
+            {
+              "type": "technical",
+              "question": "Deep dive into HLD/LLD of current work projects",
+              "topics": ["System Design", "Architecture"]
+            },
+            {
+              "type": "technical",
+              "question": "Java memory management",
+              "topics": ["JVM", "Memory Management"]
+            },
+            {
+              "type": "technical",
+              "question": "Collections framework internals",
+              "topics": ["Collections", "Java"]
+            }
+          ]
+        },
+        {
+          "roundNumber": 3,
+          "roundName": "HM Round (In-Person)",
+          "duration": "45 mins",
+          "location": "Mumbai Office",
+          "interviewers": 1,
+          "questions": [
+            {
+              "type": "technical",
+              "question": "Core Java concepts",
+              "topics": ["Java"]
+            },
+            {
+              "type": "technical",
+              "question": "Garbage Collection mechanisms",
+              "topics": ["GC", "JVM"]
+            },
+            {
+              "type": "technical",
+              "question": "Multithreading in depth",
+              "topics": ["Concurrency", "Multithreading"]
+            },
+            {
+              "type": "technical",
+              "question": "Design Patterns",
+              "topics": ["Design Patterns", "OOP"]
+            },
+            {
+              "type": "behavioral",
+              "question": "Why BlackRock?",
+              "topics": ["Behavioral"]
+            },
+            {
+              "type": "behavioral",
+              "question": "Scenario-based questions",
+              "topics": ["Behavioral"]
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Focus on project depth - they ask detailed questions",
+        "Strong Java fundamentals are critical",
+        "Prepare for in-person Mumbai office visit"
+      ]
+    },
+    {
+      "id": "exp_002",
+      "candidate": "Anonymous_2",
+      "source": "LeetCode Discuss",
+      "sourceUrl": "https://leetcode.com/discuss/interview-experience/5143046/BlackRock-or-Associate-or-Gurgaon-or-April-2024-Offer/",
+      "date": "2024-04",
+      "location": "Gurgaon",
+      "position": "Associate",
+      "level": "SDE-2",
+      "experience": "~4 years 9 months",
+      "result": "Selected",
+      "compensation": {
+        "previous": 15,
+        "offered": 27,
+        "currency": "LPA"
+      },
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "roundName": "Coding Round",
+          "duration": "45 mins",
+          "scheduledOnSameDay": true,
+          "questions": [
+            {
+              "type": "coding",
+              "question": "Easy level if-else based problem",
+              "difficulty": "Easy",
+              "timeToSolve": "5 mins",
+              "topics": ["Logic", "Conditionals"]
+            },
+            {
+              "type": "discussion",
+              "question": "How to load files/indexes during application startup using multithreading",
+              "topics": ["Multithreading", "System Design", "Performance"]
+            }
+          ]
+        },
+        {
+          "roundNumber": 2,
+          "roundName": "Technical Round",
+          "duration": "1 hour",
+          "questions": [
+            {
+              "type": "coding",
+              "question": "Linked List Cycle",
+              "leetcode": 141,
+              "difficulty": "Easy",
+              "timeToSolve": "5 mins",
+              "topics": ["Linked List", "Two Pointer"]
+            },
+            {
+              "type": "technical",
+              "question": "Internal HashMap working",
+              "topics": ["HashMap", "Data Structures"]
+            },
+            {
+              "type": "technical",
+              "question": "Difference between ConcurrentHashMap and HashMap",
+              "topics": ["Concurrency", "Collections"]
+            },
+            {
+              "type": "technical",
+              "question": "Profiling in Spring Boot",
+              "topics": ["Spring Boot", "Performance"]
+            },
+            {
+              "type": "technical",
+              "question": "Difference between wait(), notify() and notifyAll()",
+              "topics": ["Multithreading", "Synchronization"]
+            },
+            {
+              "type": "technical",
+              "question": "Difference between fail-fast and fail-safe iterators",
+              "topics": ["Collections", "Java"]
+            }
+          ]
+        },
+        {
+          "roundNumber": 3,
+          "roundName": "Techno-Managerial Round",
+          "duration": "45 mins",
+          "questions": [
+            {
+              "type": "behavioral",
+              "question": "Why are you looking for a change?",
+              "topics": ["Behavioral"]
+            },
+            {
+              "type": "behavioral",
+              "question": "Why BlackRock?",
+              "topics": ["Behavioral"]
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "All rounds on same day - be prepared for marathon",
+        "Explain multiple approaches even for easy problems",
+        "Strong multithreading knowledge essential"
+      ]
+    },
+    {
+      "id": "exp_003",
+      "candidate": "Anonymous_3",
+      "source": "LeetCode Discuss",
+      "sourceUrl": "https://leetcode.com/discuss/interview-experience/5234780/BlackRock-or-Associate-or-Gurgaon-or-May-2024-Offer/",
+      "date": "2024-05",
+      "location": "Gurgaon",
+      "position": "Associate",
+      "result": "Selected",
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "roundName": "Technical Round",
+          "duration": "45 mins",
+          "questions": [
+            {
+              "type": "coding",
+              "question": "Similar String Groups (Grouping of similar strings)",
+              "leetcode": 839,
+              "difficulty": "Hard",
+              "topics": ["String", "Union Find", "DFS"]
+            },
+            {
+              "type": "technical",
+              "question": "How to make class immutable, how to handle List data member in immutable class",
+              "topics": ["Immutability", "Java", "Design"]
+            }
+          ]
+        },
+        {
+          "roundNumber": 2,
+          "roundName": "Technical Round",
+          "duration": "1 hour",
+          "questions": [
+            {
+              "type": "discussion",
+              "question": "10-15 mins on current project",
+              "topics": ["Projects"]
+            },
+            {
+              "type": "coding",
+              "question": "Remove duplicates from nested array {{1,2,3},{3,4,5},{5,2,8}} using streams (flatMap)",
+              "topics": ["Java Streams", "flatMap", "Collections"]
+            },
+            {
+              "type": "technical",
+              "question": "Internal HashMap working",
+              "topics": ["HashMap", "Collections"]
+            },
+            {
+              "type": "technical",
+              "question": "Contract between hashCode() and equals()",
+              "topics": ["Object", "equals", "hashCode"]
+            },
+            {
+              "type": "coding",
+              "question": "Singleton pattern - write code",
+              "topics": ["Design Patterns", "Singleton"]
+            },
+            {
+              "type": "coding",
+              "question": "Write a GET API",
+              "topics": ["Spring Boot", "REST API"]
+            },
+            {
+              "type": "technical",
+              "question": "Kafka basics",
+              "topics": ["Kafka", "Messaging"]
+            },
+            {
+              "type": "technical",
+              "question": "Angular lifecycle, RxJS",
+              "topics": ["Angular", "Frontend"]
+            },
+            {
+              "type": "sql",
+              "question": "Find fourth largest salary of employee",
+              "topics": ["SQL", "Subquery"]
+            }
+          ]
+        },
+        {
+          "roundNumber": 3,
+          "roundName": "Techno-Managerial",
+          "questions": [
+            {
+              "type": "behavioral",
+              "question": "Resume-based questions",
+              "topics": ["Behavioral"]
+            },
+            {
+              "type": "behavioral",
+              "question": "Why are you looking for a change?",
+              "topics": ["Behavioral"]
+            },
+            {
+              "type": "behavioral",
+              "question": "Why BlackRock?",
+              "topics": ["Behavioral"]
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Strong Java 8 Streams knowledge required",
+        "Full-stack questions - be prepared for Angular/Frontend",
+        "Projects discussion is very detailed"
+      ]
+    },
+    {
+      "id": "exp_004",
+      "candidate": "Anonymous_4",
+      "source": "LeetCode Discuss",
+      "sourceUrl": "https://leetcode.com/discuss/post/6713363/blackrock-associate-interview-selected-b-wocu/",
+      "date": "2024-11",
+      "position": "Associate",
+      "level": "C++ Developer",
+      "result": "Selected",
+      "processDuration": "3 weeks",
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "roundName": "Core + DSA",
+          "duration": "1 hour",
+          "questions": [
+            {
+              "type": "technical",
+              "question": "Modern C++ concepts - move semantics",
+              "topics": ["C++", "Move Semantics"]
+            },
+            {
+              "type": "technical",
+              "question": "Smart pointers",
+              "topics": ["C++", "Memory Management"]
+            },
+            {
+              "type": "technical",
+              "question": "Polymorphism in depth",
+              "topics": ["C++", "OOP"]
+            },
+            {
+              "type": "coding",
+              "question": "Daily Temperatures",
+              "leetcode": 739,
+              "difficulty": "Medium",
+              "duration": "Last 15 minutes",
+              "topics": ["Stack", "Array"]
+            }
+          ]
+        },
+        {
+          "roundNumber": 2,
+          "roundName": "Low Level Design",
+          "questions": [
+            {
+              "type": "design",
+              "question": "Design a cache system",
+              "topics": ["System Design", "Cache", "LLD"]
+            },
+            {
+              "type": "technical",
+              "question": "Cache eviction policies - LRU vs LFU implementation",
+              "topics": ["Cache", "Algorithms"]
+            }
+          ]
+        },
+        {
+          "roundNumber": 3,
+          "roundName": "Behavioral + Scenario",
+          "questions": [
+            {
+              "type": "behavioral",
+              "question": "Scenario-based questions",
+              "topics": ["Behavioral"]
+            },
+            {
+              "type": "behavioral",
+              "question": "Motivation for applying to BlackRock",
+              "topics": ["Behavioral"]
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Modern C++ features are heavily tested",
+        "LLD round is critical - practice cache design",
+        "Process takes 3 weeks - be patient"
+      ]
+    },
+    {
+      "id": "exp_005",
+      "candidate": "Anonymous_5",
+      "source": "LeetCode Discuss",
+      "sourceUrl": "https://leetcode.com/discuss/post/6229277/BlackRock-or-Associate-(SSE)-or-Gurgaon-or-October-2024-Reject/",
+      "date": "2024-10",
+      "location": "Gurgaon",
+      "position": "Associate (SSE)",
+      "level": "SDE-2",
+      "currentPosition": "SDE-2 at banking company",
+      "experience": "3.5 years",
+      "currentLocation": "Pune",
+      "result": "Rejected",
+      "applicationMethod": "Direct through BlackRock careers page",
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "roundName": "Technical Round (DSA)",
+          "duration": "1 hour",
+          "questions": [
+            {
+              "type": "discussion",
+              "question": "Introduction and projects discussion",
+              "topics": ["Projects", "Experience"]
+            },
+            {
+              "type": "coding",
+              "question": "Find element in rotated sorted array (extension of binary search)",
+              "difficulty": "Medium",
+              "topics": ["Binary Search", "Array"]
+            },
+            {
+              "type": "technical",
+              "question": "OOPs - Objects and memory allocation in Java",
+              "topics": ["OOP", "Memory", "Java"]
+            },
+            {
+              "type": "technical",
+              "question": "Differences between String, StringBuilder, and StringBuffer",
+              "topics": ["String", "Java"]
+            },
+            {
+              "type": "technical",
+              "question": "Java memory management concepts",
+              "topics": ["JVM", "Memory"]
+            }
+          ]
+        },
+        {
+          "roundNumber": 2,
+          "roundName": "Experience & Projects",
+          "questions": [
+            {
+              "type": "technical",
+              "question": "Advanced threading concepts in Java",
+              "topics": ["Multithreading", "Concurrency"]
+            },
+            {
+              "type": "discussion",
+              "question": "Deep dive into projects",
+              "topics": ["Projects"]
+            }
+          ],
+          "result": "Rejected after this round"
+        }
+      ],
+      "tips": [
+        "Even experienced candidates face tough competition",
+        "Banking experience doesn't guarantee selection",
+        "Be prepared for rejection even after good rounds"
+      ]
+    },
+    {
+      "id": "exp_006",
+      "candidate": "Anonymous_6",
+      "source": "Glassdoor",
+      "sourceUrl": "https://www.glassdoor.com/Interview/BlackRock-Gurgaon-Interview-Questions-EI_IE9331.0,9_IL.10,17_IC2921225.htm",
+      "date": "2025-08",
+      "location": "Gurgaon",
+      "applicationMethod": "College/University",
+      "result": "In Process",
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "roundName": "Online Assessment",
+          "duration": "90 mins",
+          "sections": [
+            {
+              "name": "Python",
+              "type": "MCQ"
+            },
+            {
+              "name": "SQL",
+              "type": "MCQ"
+            },
+            {
+              "name": "Aptitude",
+              "type": "MCQ"
+            }
+          ]
+        },
+        {
+          "roundNumber": 2,
+          "roundName": "Technical Interview",
+          "questions": [
+            {
+              "type": "discussion",
+              "question": "Internship experience in depth",
+              "topics": ["Experience"]
+            },
+            {
+              "type": "discussion",
+              "question": "Projects worked on",
+              "topics": ["Projects"]
+            },
+            {
+              "type": "technical",
+              "question": "Technical and analytical skills",
+              "topics": ["Technical Skills"]
+            },
+            {
+              "type": "technical",
+              "question": "Understanding of financial markets",
+              "topics": ["Finance", "Markets"]
+            },
+            {
+              "type": "technical",
+              "question": "Core financial concepts",
+              "topics": ["Finance"]
+            },
+            {
+              "type": "technical",
+              "question": "Derivatives - lots of questions",
+              "topics": ["Finance", "Derivatives"]
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Financial knowledge is tested heavily",
+        "Derivatives knowledge is critical",
+        "Resume-based deep dive questions"
+      ]
+    },
+    {
+      "id": "exp_007",
+      "candidate": "Anonymous_7",
+      "source": "Glassdoor",
+      "sourceUrl": "https://www.glassdoor.com/Interview/BlackRock-India-Interview-Questions-EI_IE9331.0,9_IL.10,15_IN115.htm",
+      "date": "2024-08",
+      "location": "Mumbai",
+      "position": "Data and Software Engineering Intern",
+      "applicationMethod": "College/University",
+      "processDuration": "1 day",
+      "result": "Selected",
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "roundName": "Technical Interview",
+          "questions": [
+            {
+              "type": "coding",
+              "question": "Two basic DSA questions on arrays",
+              "difficulty": "Easy",
+              "topics": ["Arrays", "DSA"]
+            },
+            {
+              "type": "sql",
+              "question": "SQL queries",
+              "topics": ["SQL"]
+            },
+            {
+              "type": "discussion",
+              "question": "Projects and resume discussion",
+              "topics": ["Projects"]
+            },
+            {
+              "type": "technical",
+              "question": "OOPs theory questions",
+              "topics": ["OOP"]
+            }
+          ],
+          "note": "Interviewers were liberal, working around your skill set"
+        }
+      ],
+      "tips": [
+        "Very basic DSA for intern role",
+        "Interviewers are supportive",
+        "Focus on OOPs fundamentals"
+      ]
+    },
+    {
+      "id": "exp_008",
+      "candidate": "Anonymous_8",
+      "source": "Glassdoor",
+      "sourceUrl": "https://www.glassdoor.com/Interview/BlackRock-Interview-Questions-E9331.htm",
+      "date": "2024-08",
+      "location": "Gurgaon",
+      "applicationMethod": "College/University",
+      "processDuration": "1 day",
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "roundName": "Combined Technical + HR",
+          "duration": "60 mins",
+          "questions": [
+            {
+              "type": "discussion",
+              "question": "Resume-based questions",
+              "duration": "30 mins",
+              "topics": ["Experience"]
+            },
+            {
+              "type": "coding",
+              "question": "Cycle detection in linked list",
+              "difficulty": "Easy",
+              "duration": "30 mins",
+              "topics": ["Linked List"]
+            },
+            {
+              "type": "coding",
+              "question": "Removing duplicates in array",
+              "difficulty": "Easy",
+              "topics": ["Array"]
+            }
+          ]
+        },
+        {
+          "roundNumber": 2,
+          "roundName": "HR Round",
+          "duration": "20 mins",
+          "questions": [
+            {
+              "type": "behavioral",
+              "question": "Basic HR questions related to company",
+              "topics": ["Behavioral", "Company"]
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Keep DSA problems simple for campus",
+        "HR round is quick and straightforward"
+      ]
+    },
+    {
+      "id": "exp_009",
+      "candidate": "Anonymous_9",
+      "source": "GeeksforGeeks",
+      "sourceUrl": "https://www.geeksforgeeks.org/interview-experiences/blackrock-interview-experience-for-sde-on-campus-2024/",
+      "date": "2024-07",
+      "campus": "VIT Vellore",
+      "position": "SDE",
+      "result": "Selected",
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "roundName": "Online Assessment",
+          "duration": "1 hour",
+          "platform": "eLitmus",
+          "sections": [
+            {
+              "name": "Aptitude",
+              "difficulty": "Easy to Medium"
+            },
+            {
+              "name": "DSA",
+              "difficulty": "Medium"
+            },
+            {
+              "name": "SQL",
+              "difficulty": "Easy to Medium"
+            }
+          ]
+        },
+        {
+          "roundNumber": 2,
+          "roundName": "Technical Interview 1",
+          "duration": "1 hour",
+          "interviewers": ["Vice President", "Associate"],
+          "questions": [
+            {
+              "type": "coding",
+              "question": "Right View of Binary Tree - write code",
+              "topics": ["Trees", "DFS", "BFS"]
+            },
+            {
+              "type": "sql",
+              "question": "Employee table with Employee Code, Name, Manager's Code - use self-joins",
+              "topics": ["SQL", "Self Join"]
+            },
+            {
+              "type": "sql",
+              "question": "Discussion on Foreign Keys vs Joins",
+              "topics": ["SQL", "Database Design"]
+            }
+          ]
+        },
+        {
+          "roundNumber": 3,
+          "roundName": "Technical Interview 2",
+          "duration": "1 hour",
+          "questions": [
+            {
+              "type": "discussion",
+              "question": "Deep dive into project experiences (70% of conversation)",
+              "topics": ["Projects", "PCON", "WebTeam"]
+            },
+            {
+              "type": "discussion",
+              "question": "Leadership roles and team experience",
+              "topics": ["Leadership", "Teamwork"]
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Both interviews held same day",
+        "Results by evening",
+        "Project depth matters more than breadth",
+        "Stay calm and confident"
+      ]
+    },
+    {
+      "id": "exp_010",
+      "candidate": "Anonymous_10",
+      "source": "GeeksforGeeks",
+      "sourceUrl": "https://www.geeksforgeeks.org/interview-experiences/blackrock-interview-experience-on-campus/",
+      "date": "2024-09",
+      "campus": "VIT",
+      "eligibilityCriteria": "60% or CGPA 6",
+      "position": "Technology Profile",
+      "applicants": 1000,
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "roundName": "Online Test",
+          "sections": [
+            {
+              "name": "Software Aptitude",
+              "type": "Flowchart problems",
+              "questions": "3 problems with 4-5 questions each",
+              "description": "Fill missing statements in flowchart boxes"
+            },
+            {
+              "name": "DSA",
+              "topics": ["Trees", "Tree Traversals", "AVL Trees"],
+              "difficulty": "Basic to Detailed"
+            },
+            {
+              "name": "SQL",
+              "questions": 25,
+              "type": "MCQ"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Flowchart questions are tricky",
+        "Trees knowledge is essential",
+        "Strong SQL fundamentals needed"
+      ]
+    }
+  ],
+  "statistics": {
+    "totalExperiences": 10,
+    "sourceBreakdown": {
+      "LeetCode Discuss": 5,
+      "Glassdoor": 3,
+      "GeeksforGeeks": 2
+    },
+    "resultBreakdown": {
+      "Selected": 7,
+      "Rejected": 1,
+      "In Process": 2
+    },
+    "locationBreakdown": {
+      "Mumbai": 3,
+      "Gurgaon": 5,
+      "Pune": 1,
+      "Campus": 1
+    },
+    "avgProcessDuration": "3-4 weeks",
+    "commonTopics": [
+      "Multithreading",
+      "HashMap Internals",
+      "Spring Boot",
+      "System Design",
+      "Projects Deep Dive",
+      "Java Memory Management",
+      "Design Patterns"
+    ]
+  }
+}
